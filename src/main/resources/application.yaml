@@ -1,0 +1,15 @@
+server:
+  port: 2012
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: hulk
+    url: jdbc:mysql://localhost:3306/motor_insurance_application
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
